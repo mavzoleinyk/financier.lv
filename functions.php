@@ -139,9 +139,35 @@ add_action( 'widgets_init', 'loa_widgets_init' );
  */
 function loa_scripts() {
 	wp_enqueue_style( 'loa-style', get_stylesheet_uri(), array(), _S_VERSION );
-	wp_style_add_data( 'loa-style', 'rtl', 'replace' );
+	// wp_style_add_data( 'loa-style', 'rtl', 'replace' );
+	wp_enqueue_style( 'loa-bootstrap', get_template_directory_uri() . '/assets/css/bootstrap.min.css' );
+	wp_enqueue_style( 'loa-animate', get_template_directory_uri() . '/assets/css/animate.min.css' );
+	wp_enqueue_style( 'loa-fontawesome', get_template_directory_uri() . '/assets/css/fontawesome.min.css' );
+	wp_enqueue_style( 'loa-flaticon', get_template_directory_uri() . '/assets/css/flaticon.css' );
+	wp_enqueue_style( 'loa-magnific', get_template_directory_uri() . '/assets/css/magnific-popup.min.css' );
+	wp_enqueue_style( 'loa-nice', get_template_directory_uri() . '/assets/css/nice-select.css' );
+	wp_enqueue_style( 'loa-slick', get_template_directory_uri() . '/assets/css/slick.min.css' );
+	wp_enqueue_style( 'loa-owlcarousel', get_template_directory_uri() . '/assets/css/owl.carousel.min.css' );
+	wp_enqueue_style( 'loa-owltheme', get_template_directory_uri() . '/assets/css/owl.theme.default.min.css' );
+	wp_enqueue_style( 'loa-meanmenu', get_template_directory_uri() . '/assets/css/meanmenu.css' );
+	wp_enqueue_style( 'loa-odometer', get_template_directory_uri() . '/assets/css/odometer.min.css' );
+	wp_enqueue_style( 'loa-themestyle', get_template_directory_uri() . '/assets/css/style.css' );
+	wp_enqueue_style( 'loa-responsive', get_template_directory_uri() . '/assets/css/responsive.css' );
+	wp_enqueue_style( 'loa-dark-style', get_template_directory_uri() . '/assets/css/dark-style.css' );
 
-	wp_enqueue_script( 'loa-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
+	wp_enqueue_script( 'loa-bootstrap', get_template_directory_uri() . '/assets/js/bootstrap.bundle.min.js', array('jquery'), _S_VERSION, true );
+	wp_enqueue_script( 'loa-meanmenu', get_template_directory_uri() . '/assets/js/meanmenu.js', array('jquery'), _S_VERSION, true );
+	wp_enqueue_script( 'loa-nice', get_template_directory_uri() . '/assets/js/nice-select.min.js', array('jquery'), _S_VERSION, true );
+	wp_enqueue_script( 'loa-slick', get_template_directory_uri() . '/assets/js/slick.min.js', array('jquery'), _S_VERSION, true );
+	wp_enqueue_script( 'loa-magnific', get_template_directory_uri() . '/assets/js/magnific-popup.min.js', array('jquery'), _S_VERSION, true );
+	wp_enqueue_script( 'loa-appear', get_template_directory_uri() . '/assets/js/appear.min.js', array('jquery'), _S_VERSION, true );
+	wp_enqueue_script( 'loa-odometer', get_template_directory_uri() . '/assets/js/odometer.min.js', array('jquery'), _S_VERSION, true );
+	wp_enqueue_script( 'loa-owl-carouse', get_template_directory_uri() . '/assets/js/owl.carousel.min.js', array('jquery'), _S_VERSION, true );
+	wp_enqueue_script( 'loa-parallax', get_template_directory_uri() . '/assets/js/parallax.min.js', array('jquery'), _S_VERSION, true );
+	wp_enqueue_script( 'loa-wow', get_template_directory_uri() . '/assets/js/wow.min.js', array('jquery'), _S_VERSION, true );
+	wp_enqueue_script( 'loa-main', get_template_directory_uri() . '/assets/js/main.js', array('jquery'), _S_VERSION, true );
+
+	// wp_enqueue_script( 'loa-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
