@@ -105,7 +105,7 @@
 	}
 
 	// FAQ Accordion
-	$(function() {
+	jQuery(document).ready(function($) {
 		$('.accordion').find('.accordion-title').on('click', function(){
 			// Adds Active Class
 			$(this).toggleClass('active');

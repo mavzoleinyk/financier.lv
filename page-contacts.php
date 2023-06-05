@@ -8,13 +8,7 @@ get_header();
         <div class="ctp-page-banner-area" data-jarallax='{"speed": 0.3}'>
             <div class="container">
                 <div class="ctp-page-banner-content">
-                    <h3>Contact Us</h3>
-                    <ul class="list">
-                        <li>
-                            <a href="index-7.html">Home</a>
-                        </li>
-                        <li>Contact Us</li>
-                    </ul>
+                    <h3>Контакты</h3>
                 </div>
             </div>
         </div>
@@ -27,57 +21,16 @@ get_header();
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-lg-8 col-md-12">
-                            <div class="ctp-contact-form">
-                                <h3>Get In Touch With Us</h3>
-
-                                <form id="contactForm">
-                                    <div class="form-group">
-                                        <label>First name</label>
-                                        <input type="text" name="name" id="name" class="form-control" required data-error="Please enter your name" placeholder="Sergio Laughlin">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-
-                                    <div class="form-group">
-                                        <label>Surname</label>
-                                        <input type="text" name="name" id="name" class="form-control" required data-error="Please enter your surname" placeholder="George">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-
-                                    <div class="form-group">
-                                        <label>Email</label>
-                                        <input type="email" name="email" id="email" class="form-control" required data-error="Please enter your email" placeholder="luvion@gmail.com">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-
-                                    <div class="form-group">
-                                        <label>Telephone</label>
-                                        <input type="text" name="phone_number" id="phone_number" required data-error="Please enter your number" class="form-control" placeholder="+ (321) 984 754">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-
-                                    <div class="form-group">
-                                        <label>Subject</label>
-                                        <input type="text" name="msg_subject" id="msg_subject" class="form-control" required data-error="Please enter your subject" placeholder="Subject">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-
-                                    <div class="form-group">
-                                        <label>Message</label>
-                                        <textarea name="message" class="form-control" id="message" cols="30" rows="6" required data-error="Write your message" placeholder="Write message here"></textarea>
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-
-                                    <button type="submit" class="btn btn-primary">Send Us Your Enquiry</button>
-                                    <div id="msgSubmit" class="h3 text-center hidden"></div>
-                                    <div class="clearfix"></div>
-                                </form>
+                            <div class="ctp-contact-form ctp-banner-form">
+                                <h3>Свяжись с нами</h3>
+                                <?php echo do_shortcode('[contact-form-7 id="19" title="Contact form header"]'); ?>
                             </div>
                         </div>
 
                         <div class="col-lg-4 col-md-12">
                             <div class="ctp-contact-information">
                                 <div class="information-box">
-                                    <h3>Our Contact Details</h3>
+                                    <h3>Наши контакты</h3>
 
                                     <ul class="contact-info">
                                         <li class="address">

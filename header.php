@@ -45,13 +45,6 @@
 							<?php the_custom_logo(); ?>
                         </a>
 
-                        <div class="navbar-list">
-                            <ul>
-                                <li><a href="#">Personal</a></li>
-                                <li><a href="#">Business</a></li>
-                            </ul>
-                        </div>
-
                         <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
 							<?php
 								wp_nav_menu(
@@ -64,39 +57,12 @@
 							?>
                             <div class="others-options d-flex align-items-center">
                                 <div class="options-item">
-                                    <div class="dropdown language-option">
-                                        <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            <div class="globe-icon">
-                                                <i class="fa-solid fa-globe"></i>
-                                            </div>
-
-                                            <span class="lang-name"></span>
-
-                                            <div class="chevron-down-icon">
-                                                <i class="fa-solid fa-chevron-down"></i>
-                                            </div>
-                                        </button>
-                                        <div class="dropdown-menu language-dropdown-menu">
-                                            <a class="dropdown-item" href="#">
-                                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/currency-transfer-provider/uk.png" alt="flag">
-                                                EN
-                                            </a>
-                                            <a class="dropdown-item" href="#">
-                                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/currency-transfer-provider/china.png" alt="flag">
-                                                简体中文
-                                            </a>
-                                            <a class="dropdown-item" href="#">
-                                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/currency-transfer-provider/uae.png" alt="flag">
-                                                العربيّة
-                                            </a>
-                                        </div>
-                                    </div>
+                                    <a href="#" class="login-btn">RUS</a>
+                                    <a href="#" class="login-btn">ENG</a>
+                                    <a href="#" class="login-btn">LAT</a>
                                 </div>
                                 <div class="options-item">
-                                    <a href="login.html" class="login-btn">Log in</a>
-                                </div>
-                                <div class="options-item">
-                                    <a href="sign-up.html" class="btn btn-primary">Register</a>
+                                    <a href="#" class="btn btn-primary">Оставить заявку</a>
                                 </div>
                             </div>
                         </div>

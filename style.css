@@ -967,3 +967,117 @@ textarea {
 	margin-right: auto;
 	margin-bottom: 1.5em;
 }
+
+
+/* CUSTOM STYLE */
+.ctp-banner-form .form-content .form-group input{
+	width: 100%;
+	padding: 10px;
+	color: #212529;
+	border: 1px solid #E5E5E5;
+    border-radius: 50px;
+	font-size: 16.5px;
+    font-family: "Raleway", sans-serif;
+	font-weight: 600;
+}
+.ctp-banner-form .form-content .btn-primary{
+	border: none;
+}
+.currency-transfer-provider-navbar .luvion-nav .navbar .others-options .options-item .login-btn{
+	position: relative;
+	padding: 0 9px;
+	font-size: 14px!important;
+}
+.currency-transfer-provider-navbar .luvion-nav .navbar .others-options .options-item .login-btn::after{
+	content: '|';
+	position: absolute;
+	right: -3px;
+    top: -3px;
+}
+.currency-transfer-provider-navbar .luvion-nav .navbar .others-options .options-item .login-btn::after:last-of-type{
+	display: none;
+}
+.ctp-footer-widget .links, .ctp-footer-widget .info{
+	margin-left: 0;
+}
+.ctp-banner-form .form-content{
+	border-radius: 15px!important;
+}
+.ctp-money-transfer-area{
+	background-color: #6e8387;
+}
+.ctp-key-features-area{
+	background-color: #6e8387!important;
+}
+.ctp-money-transfer-card p{
+	color: #000!important;
+}
+.ctp-faq-area{
+	background-color: #6e8387!important;
+}
+.ctp-app-area{
+	background-image: none !important;
+	background-color: #6e8387!important;
+}
+.currency-transfer-provider-with-background-color{
+	background-color: #6e8387!important;
+}
+.ctp-choose-content p, .ctp-about-content p{
+	color: #000!important;
+}
+.ctp-footer-area .copyright-area p a{
+	background: -webkit-gradient(linear, left top, right top, from(#6e8387), to(#00ff4e))!important;
+    background: linear-gradient(90deg, #6e8387 0%, #00ff4e 100%)!important;
+	-webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.ctp-footer-widget .info li span{
+	background: -webkit-gradient(linear, left top, right top, from(#6e8387), to(#00ff4e))!important;
+    background: linear-gradient(90deg, #6e8387 0%, #00ff4e 100%)!important;
+	-webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.ctp-contact-information .information-box .contact-info li .sub{
+	background: -webkit-gradient(linear, left top, right top, from(#6e8387), to(#00ff4e))!important;
+    background: linear-gradient(90deg, #6e8387 0%, #00ff4e 100%)!important;
+	-webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.ctp-contact-information .information-box .time-info li .color{
+	background: -webkit-gradient(linear, left top, right top, from(#6e8387), to(#00ff4e))!important;
+    background: linear-gradient(90deg, #6e8387 0%, #00ff4e 100%)!important;
+	-webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+}
+.ctp-footer-widget .links li a::before{
+	background: -webkit-gradient(linear, left top, right top, from(#6e8387), to(#00ff4e))!important;
+    background: linear-gradient(90deg, #6e8387 0%, #00ff4e 100%)!important;
+}
+.ctp-app-content .btn-box .app-store-btn{
+	padding: 11px 30px 10px 30px!important;
+}
+.ctp-app-content .btn-box .app-store-btn::before{
+	background: -webkit-gradient(linear, left top, right top, from(#6e8387), to(#00ff4e))!important;
+    background: linear-gradient(90deg, #6e8387 0%, #00ff4e 100%)!important;
+}
+.btn-primary::before{
+	background: -webkit-gradient(linear, left top, right top, from(#6e8387), to(#00ff4e))!important;
+    background: linear-gradient(90deg, #6e8387 0%, #00ff4e 100%)!important;
+}
+.ctp-money-transfer-card .image .number{
+	background: -webkit-gradient(linear, left top, right top, from(#6e8387), to(#00ff4e))!important;
+    background: linear-gradient(90deg, #6e8387 0%, #00ff4e 100%)!important;
+}
+.dark-version .slider{
+	background: -webkit-gradient(linear, left top, right top, from(#6e8387), to(#00ff4e))!important;
+    background: linear-gradient(90deg, #6e8387 0%, #00ff4e 100%)!important;
+}
+.currency-transfer-provider-navbar .luvion-nav .navbar .navbar-nav .nav-item a:hover, .currency-transfer-provider-navbar .luvion-nav .navbar .navbar-nav .nav-item a:focus, .currency-transfer-provider-navbar .luvion-nav .navbar .navbar-nav .nav-item a.active{
+	color: #00ff4e!important;
+}
+.ctp-contact-form.ctp-banner-form{
+	max-width: 100%;
+}
+.ctp-contact-form.ctp-banner-form .form-content{
+	max-width: 100%;
+}

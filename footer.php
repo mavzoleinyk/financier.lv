@@ -20,7 +20,7 @@
 								<a href="/"><?php the_custom_logo(); ?></a>
 							</div>
 							<ul class="social-links">
-                                <span>Find us on social media</span>
+                                <span>Ищите нас в соцсетях</span>
 								<li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
 								<li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
 								<li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
@@ -31,20 +31,11 @@
 
                     <div class="col-lg-3 col-sm-6 col-md-6">
                         <div class="ctp-footer-widget">
-                            <h3>Company</h3>
+                            <h3>Компания</h3>
 
                             <ul class="links">
                                 <li>
-                                    <a href="about-two.html">About us</a>
-                                </li>
-                                <li>
-                                    <a href="how-it-works.html">How it works</a>
-                                </li>
-                                <li>
-                                    <a href="#">Mobile apps</a>
-                                </li>
-                                <li>
-                                    <a href="#">Reviews</a>
+                                    <a href="/about/">О нас</a>
                                 </li>
                             </ul>
                         </div>
@@ -52,17 +43,14 @@
 
                     <div class="col-lg-3 col-sm-6 col-md-6">
                         <div class="ctp-footer-widget">
-                            <h3>Support</h3>
+                            <h3>Поддержка</h3>
 
                             <ul class="links">
                                 <li>
-                                    <a href="#">Terms and conditions</a>
+                                    <a href="#">Правила и положения</a>
                                 </li>
                                 <li>
-                                    <a href="#">Privacy policy</a>
-                                </li>
-                                <li>
-                                    <a href="contact-two.html">Contact Us</a>
+                                    <a href="#">Политика конфиденциальности</a>
                                 </li>
                             </ul>
                         </div>
@@ -70,20 +58,20 @@
 
                     <div class="col-lg-3 col-sm-6 col-md-6">
                         <div class="ctp-footer-widget">
-                            <h3>Need help?</h3>
+                            <h3>Контакты</h3>
                             
                             <ul class="info">
                                 <li>
-                                    <span>Location: </span>
-                                    27 Division St, New York, NY 10002, USA
+                                    <span>Адрес: </span>
+                                    ООО FINANCIER
                                 </li>
                                 <li>
                                     <span>Email: </span>
-                                    <a href="mailto:luvion@gmail.com">luvion@gmail.com</a>
+                                    <a href="mailto:info@financier.lv">info@financier.lv</a>
                                 </li>
                                 <li>
-                                    <span>Email: </span>
-                                    <a href="tel:321984754">+ (321) 984 754</a>
+                                    <span>Телефон: </span>
+                                    <a href="tel:37129939969">+(371) 299 399 69</a>
                                 </li>
                             </ul>
                         </div>
@@ -91,7 +79,7 @@
                 </div>
 
                 <div class="copyright-area">
-                    <p>© Luvion is proudly created by <a href="#" target="_blank"> EnvyTheme</a></p>
+                    <p style="font-size: 12px;color: #555">© Developed by <a style="font-size: 12px;color: #555" href="https://agencjamarketingowa.com/" target="_blank" rel="noopener">iPapus agency</a></p>
                 </div>
             </div>
         </div>
@@ -106,5 +94,6 @@
                 <span class="slider round"></span>
             </label>
         </div>
+        <?php wp_footer();?>
     </body>
 </html>
