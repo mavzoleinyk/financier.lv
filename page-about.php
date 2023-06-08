@@ -126,7 +126,7 @@ get_header();
                             <div class="ctp-app-content">
                                 <h3>Получи наиболее подходящее финансирование для Твоего бизнеса</h3>
                                 <div class="btn-box">
-                                    <a href="#" class="app-store-btn">Связаться<span>с нами</span></a>
+                                    <a href="/contacts" class="app-store-btn">Связаться<span>с нами</span></a>
                                 </div>
                             </div>
                         </div>

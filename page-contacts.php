@@ -34,29 +34,19 @@ get_header();
 
                                     <ul class="contact-info">
                                         <li class="address">
-                                            <span class="sub">Address:</span>
-                                            27 Division St, New York, NY 10002, USA
+                                            <span class="sub">Адрес:</span>
+                                            ООО FINANCIER
                                         </li>
                                         <li class="email">
-                                            <span class="sub">Email:</span>
+                                            <span class="sub">E-mail:</span>
                                             <div class="info">
-                                                <span>Personal</span>
-                                                <a href="mailto:luvion@gmail.com">luvion@gmail.com</a>
-                                            </div>
-                                            <div class="info">
-                                                <span>Business</span>
-                                                <a href="mailto:hello@gmail.com">hello@gmail.com</a>
+                                                <a href="mailto:info@financier.lv">info@financier.lv</a>
                                             </div>
                                         </li>
                                         <li class="phone">
-                                            <span class="sub">Phone:</span>
+                                            <span class="sub">Телефон:</span>
                                             <div class="info">
-                                                <span>Personal</span>
-                                                <a href="tel:321984754">+ (321) 984 754</a>
-                                            </div>
-                                            <div class="info">
-                                                <span>Business</span>
-                                                <a href="tel:32154984">+ (321) 754 984</a>
+                                                <a href="tel:37129939969">+(371) 299 399 69</a>
                                             </div>
                                         </li>
                                     </ul>

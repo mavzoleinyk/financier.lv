@@ -62,7 +62,7 @@
                                     <a href="#" class="login-btn">LAT</a>
                                 </div>
                                 <div class="options-item">
-                                    <a href="#" class="btn btn-primary">Оставить заявку</a>
+                                    <a href="/contacts" class="btn btn-primary">Оставить заявку</a>
                                 </div>
                             </div>
                         </div>
